@@ -151,14 +151,6 @@ const publications: Publication[] = [
     venue: "PLOS ONE, 16(9), e0256175",
     links: [{ label: "DOI", href: "https://doi.org/10.1371/journal.pone.0256175" }],
   },
-  {
-    year: 2021,
-    type: "Conference",
-    authors: "Evkoski, Bojan; Mozetič, Igor; Novak, Petra Kralj",
-    title: "Community evolution with ensemble louvain",
-    venue: "Complex Networks (Conference proceedings), pp. 58–60",
-    links: [{ label: "arXiv", href: "https://arxiv.org/abs/2105.06214" }],
-  },
 
   // -------------------
   // 2020
