@@ -9,7 +9,7 @@ export function Home() {
         <div className="flex-shrink-0">
           <div className="w-48 h-48 bg-white border-2 border-[#d4c4b0] rounded-lg overflow-hidden">
             <img
-              src="./src/images/bojanevkoskiceuphoto.jpg"
+              src="../images/profile.jpg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
