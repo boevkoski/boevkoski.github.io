@@ -136,6 +136,22 @@ export function Home() {
               Jan 2026
             </div>
             <div className="text-[#5a5a5a]">
+              Published article in JMIR on {" "}
+              <a
+                href="https://www.jmir.org/2026/1/e80958/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-[#3a3a3a]"
+              >
+                The Structure of Psychopathology on Reddit.
+              </a>.
+            </div>
+          </div>
+           <div className="flex gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
+            <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
+              Jan 2026
+            </div>
+            <div className="text-[#5a5a5a]">
               Began teaching assistantships for <em>Intro to OOP</em> and <em>Data Mining and ML Fundamentals</em> at CEU.
             </div>
           </div>
