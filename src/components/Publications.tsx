@@ -15,6 +15,17 @@ const publications: Publication[] = [
   // -------------------
   // 2025
   // -------------------
+
+  {
+    year: 2026,
+    type: "Journal",
+    authors: "Evkoski, Bojan; Letina, Srebrenka; Kralj Novak, Petra",
+    title: "The Structure of Psychopathology on Reddit: Network Analysis of Mental Health Communities in Relation to the ICD Diagnostic System",
+    venue: "Journal of Medical Internet Research",
+    links: [
+      { label: "Journal", href: "https://www.jmir.org/2026/1/e80958/" }
+    ]
+  },
   {
     year: 2025,
     type: "Journal",
@@ -34,15 +45,6 @@ const publications: Publication[] = [
     venue: "arXiv:2508.18916",
     links: [{ label: "arXiv", href: "https://arxiv.org/abs/2508.18916" }],
   },
-  {
-    year: 2025,
-    type: "Preprint",
-    authors: "Evkoski, Bojan; Letina, Srebrenka; Novak, Petra",
-    title: "Network Analysis of Reddit Mental Health Communities: Mapping the Interconnectedness of Psychopathology",
-    venue: "OSF Preprint",
-    links: [{ label: "OSF", href: "https://osf.io/preprints/psyarxiv/7dfcw_v1?view_only=" }],
-  },
-
   // -------------------
   // 2024
   // -------------------
