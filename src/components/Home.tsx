@@ -143,7 +143,7 @@ export function Home() {
                 rel="noopener noreferrer"
                 className="underline hover:text-[#3a3a3a]"
               >
-                The Structure of Psychopathology on Reddit.
+                The Structure of Psychopathology on Reddit
               </a>.
             </div>
           </div>
