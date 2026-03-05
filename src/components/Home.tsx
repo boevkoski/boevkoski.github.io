@@ -19,9 +19,9 @@ export function Home() {
         {/* Text Content */}
         <div className="flex-1 space-y-4">
           <h1 className="text-4xl text-[#2d2d2d] mb-2">Bojan Evkoski</h1>
-          <p className="text-lg font-semibold text-[#e85d2a]">PhD Student in Network Science (CEU, Vienna)</p>
+          <p className="text-lg font-semibold text-[#e85d2a]">PhD Student in Network Science (Central European University, Vienna)</p>
           <p className="text-[#5a5a5a] leading-relaxed">
-            Main Research Topic: Computational Psychopathology
+            mental health • psychopathology • network science • machine learning
           </p>
         </div>
       </section>
@@ -32,19 +32,29 @@ export function Home() {
           About
         </h2>
         <p className="text-[#5a5a5a] leading-relaxed">
-          I am a computer and network scientist working in computational psychopathology,
-          with a focus on understanding how mental disorders relate to one another when examined at scale.
-          For that purpose, I try to integrate multiple large-scale data sources—including online peer-support spaces,
-          biomedical literature, and structured diagnostic frameworks. I am interested in transdiagnostic patterns, blurred or rigid diagnostic boundaries,
-          and systematic forms of fragmentation that are missing from the formal taxonomies such as the ICD and DSM.
+          I am a data and network scientist studying complex social and behavioral systems through large-scale data. 
+          Mainly interested in how these systems structure and evolve over time, and how they ultimately 
+          affect individuals.
         </p>
+
         <p className="text-[#5a5a5a] leading-relaxed">
-          My Master’s research adapted community detection methods to study the temporal evolution of communities in large-scale social networks,
-          while my Bachelor’s work focused on deploying machine learning models in stream-processing settings, with an emphasis on practical and scalable inference.
+          My PhD research is focused on mental health. I study the structure of psychopathology when examined at scale by integrating multiple data sources—including 
+          online peer-support communities, biomedical literature, hospital registries and diagnostic criteria.
+          This allows me to investigate transdiagnostic patterns, blurred diagnostic boundaries, 
+          and forms of fragmentation that are difficult to observe using traditional clinical studies or surveys.
         </p>
+
         <p className="text-[#5a5a5a] leading-relaxed">
-          My future research interests include clinical and peer-support text analysis in suicidality, predictive modeling of treatment outcomes,
-          and the development of data-driven approaches to advance mental health nosology.
+          Methodologically, I rely primarily on machine learning and network science to analyze high-dimensional 
+          data and uncover structural relationships within complex systems. My earlier work explored deploying 
+          machine learning models in stream-processing environments with an emphasis on scalable inference, and 
+          adapting community detection methods to study the temporal evolution of large-scale social networks.
+        </p>
+
+        <p className="text-[#5a5a5a] leading-relaxed">
+          Looking ahead, I am interested in developing data-driven approaches to better understand mental health, 
+          including the analysis of clinical and peer-support text related to psychosis and suicidality, predictive 
+          modeling of treatment outcomes, and new computational approaches to psychiatric classification.
         </p>
       </section>
 
@@ -131,7 +141,7 @@ export function Home() {
         </h2>
         <div className="space-y-4">
 
-          <div className="flex gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
+          <div className="flex items-center gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
             <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
               Jan 2026
             </div>
@@ -147,41 +157,54 @@ export function Home() {
               </a>.
             </div>
           </div>
-           <div className="flex gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
+           <div className="flex items-center gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
             <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
               Jan 2026
             </div>
             <div className="text-[#5a5a5a]">
-              Began teaching assistantships for <em>Intro to OOP</em> and <em>Data Mining and ML Fundamentals</em> at CEU.
-            </div>
-          </div>
-          <div className="flex gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
-            <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
-              Dec 2025
-            </div>
-            <div className="text-[#5a5a5a]">
-              Presented my annual research progress at the DNDS weekly seminar.
-            </div>
-          </div>
-          
-          <div className="flex gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
-            <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
-              Nov 2025
-            </div>
-            <div className="text-[#5a5a5a]">
-              Gave a talk at the Department of Psychology (University of Limerick) on our latest{" "}
-              <a
-                href="https://osf.io/preprints/psyarxiv/7dfcw_v1"
+              Began teaching assistantships for <em><a
+                href="https://ceu.studyguide.timeedit.net/modules/UGST4252?type=CORE"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-[#3a3a3a]"
               >
-                pre-print
-              </a>.
+                Intro to OOP
+              </a></em> and <em><a
+                href="https://ceu.studyguide.timeedit.net/modules/DNDS6005?type=CORE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-[#3a3a3a]"
+              >
+                Data Mining and ML Fundamentals
+              </a></em> at CEU.
+            </div>
+          </div>
+          <div className="flex items-center gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
+            <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
+              Dec 2025
+            </div>
+            <div className="text-[#5a5a5a]">
+              Presented my annual research progress at the <em><a
+                href="https://bsky.app/profile/ceu-dnds.bsky.social/post/3ma3smf7egs2s"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-[#3a3a3a]"
+              >
+                DNDS weekly seminar
+              </a></em>.
+            </div>
+          </div>
+          
+          <div className="flex items-center gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
+            <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
+              Nov 2025
+            </div>
+            <div className="text-[#5a5a5a]">
+              Presented at the Department of Psychology (University of Limerick) on data-driven approaches for studying the structure of psychopathology
             </div>
           </div>
 
-          <div className="flex gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
+          <div className="flex items-center gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
             <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
               Oct 2025
             </div>
@@ -193,21 +216,35 @@ export function Home() {
                 rel="noopener noreferrer"
                 className="underline hover:text-[#3a3a3a]"
               >
-                Premenstrual Dysphoric Disorder in Online Communities.
+                Premenstrual Dysphoric Disorder in Online Communities
               </a>.
             </div>
           </div>
           
-          <div className="flex gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
+          <div className="flex items-center gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
             <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
               Sep 2025
             </div>
             <div className="text-[#5a5a5a]">
-              Began teaching assistantships for <em>Intro to ML</em> and <em>Intro to CSS</em> at CEU.
+              Began teaching assistantships for <em><a
+                href="https://ceu.studyguide.timeedit.net/modules/UGST4088?type=CORE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-[#3a3a3a]"
+              >
+                Intro to ML
+              </a></em> and <em><a
+                href="https://ceu.studyguide.timeedit.net/modules/DNDS6014?type=CORE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-[#3a3a3a]"
+              >
+                Intro to CSS
+              </a></em> at CEU.
             </div>
           </div>
           
-          <div className="flex gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
+          <div className="flex items-center gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
             <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
               Oct 2025
             </div>
@@ -224,7 +261,7 @@ export function Home() {
             </div>
           </div>
           
-          <div className="flex gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
+          <div className="flex items-center gap-4 p-4 bg-white border border-[#d4c4b0] rounded hover:shadow-md transition-shadow">
             <div className="text-[#e85d2a] font-semibold text-sm whitespace-nowrap">
               Jan 2025
             </div>
